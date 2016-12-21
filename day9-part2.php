@@ -9,7 +9,7 @@ if ($handle) {
 
         $decompressed = parsePart($line);
 
-        echo "Day 8 answer 2 : " . $decompressed . " " . PHP_EOL;
+        echo "Day 9 answer 2 : " . $decompressed . " " . PHP_EOL;
     }
     fclose($handle);
 } else {

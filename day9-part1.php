@@ -40,7 +40,7 @@ if ($handle) {
                 $line = substr($line, $parts[1]);
             }
         }
-        echo "Day 8 answer 1 : " . strlen(join("", $decompressed)) . " " . PHP_EOL;
+        echo "Day 9 answer 1 : " . strlen(join("", $decompressed)) . " " . PHP_EOL;
     }
     fclose($handle);
 } else {
